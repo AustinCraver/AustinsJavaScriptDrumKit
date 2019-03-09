@@ -13,4 +13,6 @@ Eventually, I determined that I could make a better investment of my time
 elsewhere. If I come back to this, I would like to piece together a collection 
 of sound files that makeup a decent sounding drumkit. 
 
+The background image was found via a Google search and is located at: 
+https://www.maxpixel.net/static/photo/1x/Clock-City-Clock-Steampunk-Sci-fi-City-Fantasy-3006650.jpg
 
