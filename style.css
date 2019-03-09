@@ -10,9 +10,10 @@ body,html {
   font-family: sans-serif;
 }
 
-p {
-color: #ffffff;
-text-align: center;
+p.normal {
+  color: #ffffff;
+  text-align: center;
+  font-style: normal;
 }
 
 .keys {
