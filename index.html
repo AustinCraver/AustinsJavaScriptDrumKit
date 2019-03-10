@@ -1,3 +1,14 @@
+<!--  
+This project was built via following along with 
+JavaScript30 by Wes Bos as part of my ongoing
+learning process.
+
+Enjoy,
+
+Austin Craver
+-->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +17,8 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!--The following div block prints the letters or keys
+  to the screen-->
   <div class="keys">
     <div data-key="65" class="key">
       <kbd>A</kbd>
@@ -23,7 +36,10 @@
       <kbd>F</kbd>
       <span class="sound">clasp</span>
     </div>
-
+    <!--I left the next div blank to allow the code
+    to render a total of 8 keys, instead of the original
+    9 from the tutorial. I liked the design a bit more, 
+    and I thought it would make the kit easier to play.-->
     <div data-key="" class="key">
       <kbd></kbd>
       <span class="sound"></span>
@@ -46,7 +62,8 @@
       <span class="sound">trinket</span>
     </div>
   </div>
-
+  <!--The following wav files were found at: 
+  https://sampleswap.org/filebrowser-new.php?d=DRUMS+%28SINGLE+HITS%29%2FPunches+Hits+Discoblasts%2F-->
   <audio data-key="65" src="./sounds/clap.wav"></audio>
   <audio data-key="83" src="./sounds/hihat.wav"></audio>
   <audio data-key="68" src="./sounds/kick.wav"></audio>
@@ -57,6 +74,8 @@
   <audio data-key="76" src="./sounds/tom.wav"></audio>
   <audio data-key="186" src="./sounds/tink.wav"></audio>
 
+  <!--The following script briefly changes the size and color of the 
+  drumkit buttons.-->
 <script>
   function removeTransition(e) {
     if (e.propertyName !== 'transform') return;
