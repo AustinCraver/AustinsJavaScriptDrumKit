@@ -18,9 +18,9 @@ https://www.maxpixel.net/static/photo/1x/Clock-City-Clock-Steampunk-Sci-fi-City-
 
 ## Version Updates
 ### Version 0.0.2
-*Removed duplicate sound folder
-*Added new row of keys
-*Added royalty free space sound effects
-*Modified CSS for addition of new key row
+* Removed duplicate sound folder
+* Added new row of keys
+* Added royalty free space sound effects
+* Modified CSS for addition of new key row
 
 
