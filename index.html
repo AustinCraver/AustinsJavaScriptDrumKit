@@ -17,9 +17,66 @@ Austin Craver
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!--The following div block prints the letters or keys
-  to the screen-->
+
+
+    
+
+  <div class="keys top-buffer">
+    <div data-key="81" class="key">
+      <kbd>Q</kbd>
+      <span class="sound">UFO</span>
+    </div>
+
+    <div data-key="87" class="key">
+      <kbd>W</kbd>
+      <span class="sound">Alien 1</span>
+    </div>
+
+    <div data-key="69" class="key">
+      <kbd>E</kbd>
+      <span class="sound">Engine</span>
+    </div>
+
+    <div data-key="82" class="key">
+      <kbd>R</kbd>
+      <span class="sound">Blaster</span>
+    </div>
+
+    <div data-key="" class="blank-key">
+    </div>
+
+    
+    <div data-key="85" class="key">
+      <kbd>U</kbd>
+      <span class="sound">Alien 2</span>
+    </div>
+
+    <div data-key="73" class="key">
+      <kbd>I</kbd>
+      <span class="sound">UFO 2</span>
+    </div>
+
+    <div data-key="79" class="key">
+      <kbd>O</kbd>
+      <span class="sound">Alien 3</span>
+    </div>
+
+    <div data-key="80" class="key">
+      <kbd>P</kbd>
+      <span class="sound">TARDIS</span>
+    </div>
+
+  </div>
+
+  
+
+
   <div class="keys">
+
+    
+
+    
+
     <div data-key="65" class="key">
       <kbd>A</kbd>
       <span class="sound">attack</span>
@@ -61,6 +118,12 @@ Austin Craver
       <kbd>;</kbd>
       <span class="sound">trinket</span>
     </div>
+
+    
+  </div>
+
+  <div class="bottom-buffer">
+
   </div>
   <!--The following wav files were found at: 
   https://sampleswap.org/filebrowser-new.php?d=DRUMS+%28SINGLE+HITS%29%2FPunches+Hits+Discoblasts%2F-->
@@ -74,8 +137,19 @@ Austin Craver
   <audio data-key="76" src="./sounds/tom.wav"></audio>
   <audio data-key="186" src="./sounds/tink.wav"></audio>
 
-  <!--The following script briefly changes the size and color of the 
-  drumkit buttons.-->
+
+  <!-- Sci Fi Sounds-->
+  <audio data-key="81" src="./scifi_sounds/204417__nhumphrey__ufo.wav"></audio>
+  <audio data-key="87" src="./scifi_sounds/204420__nhumphrey__spooky-alien-language-01.wav"></audio>
+  <audio data-key="69" src="./scifi_sounds/204418__nhumphrey__large-engine.wav"></audio>
+  <audio data-key="82" src="./scifi_sounds/204433__nhumphrey__blaster-01.wav"></audio>
+  
+  <audio data-key="85" src="./scifi_sounds/204421__nhumphrey__spooky-alien-language-02.wav"></audio>
+  <audio data-key="73" src="./scifi_sounds/204419__nhumphrey__ufo-02.wav"></audio>
+  <audio data-key="79" src="./scifi_sounds/204422__nhumphrey__spooky-alien-language-03.wav"></audio>
+  <audio data-key="80" src="./scifi_sounds/tardis.wav"></audio>
+
+
 <script>
   function removeTransition(e) {
     if (e.propertyName !== 'transform') return;
