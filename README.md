@@ -16,3 +16,11 @@ of sound files that makeup a decent sounding drumkit.
 The background image was found via a Google search and is located at: 
 https://www.maxpixel.net/static/photo/1x/Clock-City-Clock-Steampunk-Sci-fi-City-Fantasy-3006650.jpg
 
+##Version Updates
+###Version 0.0.2
+*Removed duplicate sound folder
+*Added new row of keys
+*Added royalty free space sound effects
+*Modified CSS for addition of new key row
+
+
